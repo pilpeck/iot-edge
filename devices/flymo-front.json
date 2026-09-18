@@ -1,0 +1,23 @@
+{
+  "id": "flymo-front",
+  "name": "Front Lawn",
+  "type": "mower",
+  "manufacturer": "Flymo",
+  "model": "EasiLife Go 500",
+
+  "connector": {
+    "type": "bluetooth"
+  },
+
+  "driver": {
+    "type": "flymo"
+  },
+
+  "capabilities": [
+    "startable",
+    "stoppable",
+    "parkable",
+    "telemetry",
+    "battery"
+  ]
+}
