@@ -1,10 +1,9 @@
-from engine.registry import DeviceRegistry
+from engine.runtime \
+    import RuntimeEngine
 
-registry = DeviceRegistry()
 
-devices = registry.load()
+runtime = RuntimeEngine()
 
-for device in devices:
-    print(
-        f"{device['name']} ({device['type']})"
-    )
+runtime.load_devices()
+
+runtime.list_devices()
